@@ -33,7 +33,7 @@ func main() {
 	c.OnHTML("html", func(e *colly.HTMLElement) {
 		// Get the document
 		doc := e.DOM
- b
+
 		// Remove unwanted elements
 		doc.Find("script, style, noscript, iframe, img").Remove()
 

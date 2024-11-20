@@ -1,9 +1,11 @@
-module github.com/sq5rix/prx
+module prx
 
-go 1.19
+go 1.23
+
+toolchain go1.23.2
 
 require (
-	github.com/PuerkitoBio/goquery v1.8.1
+	github.com/PuerkitoBio/goquery v1.10.0
 	github.com/gocolly/colly/v2 v2.1.0
 	jaytaylor.com/html2text v0.0.0-20230321000545-74c2419ad056
 )
